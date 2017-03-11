@@ -6,8 +6,8 @@ var personality_insights = new PersonalityInsightsV3({
 });
 
 var params = {
-  // Get the content items from the JSON file.
-  content_items: require('./profile.json').contentItems,
+  // Get the content items from text field
+  string text = "",
   consumption_preferences: true,
   raw_scores: true,
   headers: {
